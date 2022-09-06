@@ -5,7 +5,7 @@ services:
     ports:
       - 6379:6379
   authorizer:
-    image: lakhansamani/authorizer:0.24.0
+    image: lakhansamani/authorizer:1.1.0
     ports:
       - 8080
     depends_on:
